@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <title>About</title>
+    <style>
+        /* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+}
+
+/* Vertical Navbar */
+.navbar {
+    width: 150px;
+    background-color: #1a1a1a;
+    height: 100vh;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.logo img {
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #f05454;
+    border-radius: 5px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #f05454;
+}
+
+/* Main content section */
+section {
+    margin-left: 100px;
+    padding: 40px;
+    color: #ce2121;
+    background-color: #222;
+    min-height: 100vh;
+}
+
+.intro h1 {
+    font-size: 36px;
+}
+
+.intro p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f05454;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d94343;
+}
+
+    </style>
+</head>
+<body>
+<section>
+        <!-- Vertical Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="sravani pic.jpg" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </nav>
+    </section>
+        <!-- Main content -->
+        <section id="About">
+            <div class="intro">
+                <h1>My name is sravani</h1>
+                <p>Frontend Developer</p>
+                <button>About Me</button>
+            </div>
+        </section>
+</body>
